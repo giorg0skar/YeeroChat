@@ -1,0 +1,7 @@
+version: '1'
+
+services:
+  yeeroback:
+    build: .
+    ports:
+      - "8000:8000"

@@ -8,3 +8,9 @@ source venv/bin/activate
 pip install -r requirements.txt
 python manage.py runserver
 ```
+
+More conveniently run with docker:
+
+```bash
+docker compose up -d
+```
